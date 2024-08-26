@@ -1,0 +1,159 @@
+.profile-details-container {
+  position: relative;
+  width: 100vw;
+  min-height: 100vh;
+  max-width: auto;
+  overflow: hidden;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  flex-direction: row;
+  padding: 30px;
+  gap: 20px;
+}
+
+.profile-container {
+  position: relative;
+  width: 60vw;
+  height: 80vh;
+  background-color: white;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+.profile-container .profile-header {
+  position: relative;
+  width: auto;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 40px;
+  button {
+    width: 100px;
+    border: none;
+    background-color: transparent;
+    color: rgb(0, 101, 252);
+  }
+}
+
+.profile-body {
+  position: relative;
+  width: 500px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+  color: rgba(97, 97, 97, 0.622);
+  border-radius: 3px;
+}
+
+.profile-body .profile-info {
+  width: 300px;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  padding: 0px 10px;
+  background-color: rgba(179, 178, 178, 0.237);
+  border: 1px solid rgba(179, 178, 178, 0.237);
+}
+
+.profile-body input {
+  width: 100%;
+  font-size: 15px;
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+
+.profile-body .save-btn button {
+  position: relative;
+  flex-shrink: 0;
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  border: none;
+  background-color: rgb(0, 101, 252);
+  color: white;
+}
+
+.profie-details {
+  position: relative;
+  width: 250px;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.profie-details .user_detais {
+  position: relative;
+  width: 100%;
+  height: 70px;
+  border-radius: 3px;
+  background-color: white;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+  padding: 0px 20px;
+}
+
+.user-img {
+  position: relative;
+  width: 45px;
+  height: 45px;
+  overflow: hidden;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.user-name h6:nth-child(1) {
+  position: relative;
+  font-size: 10px;
+  font-weight: 300;
+}
+
+.personal-details {
+  position: relative;
+  width: 100%;
+  height: 60vh;
+  overflow: hidden;
+  display: block;
+  background-color: white;
+  border-radius: 3px;
+  padding: 10px;
+}
+
+.details-title {
+  position: relative;
+  cursor: pointer;
+  margin-bottom: 10px;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(63, 61, 61);
+  background-color: rgba(149, 138, 138, 0.352);
+  border-radius: 3px;
+  transition: 0.6s ease;
+}
+
+.details-title:hover {
+  background-color: rgba(116, 116, 116, 0.352);
+}
+
+.address-fields {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  display: block;
+}

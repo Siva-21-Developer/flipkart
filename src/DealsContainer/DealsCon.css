@@ -1,0 +1,10 @@
+.DealsContainer {
+  position: relative;
+  width: 96vw;
+  height: 250px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}

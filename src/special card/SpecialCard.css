@@ -1,0 +1,10 @@
+.specialcard-container {
+  position: relative;
+  width: 96vw;
+  min-height: 90vh;
+  max-height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}

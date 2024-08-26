@@ -1,0 +1,17 @@
+.content {
+  position: relative;
+  width: 96vw;
+  height: auto;
+  color: rgba(68, 68, 68, 0.889);
+  h3 {
+    color: rgba(26, 24, 24, 0.889);
+  }
+}
+
+.content p {
+  font-size: 13px;
+  span {
+    font-size: 15px;
+    color: rgba(26, 24, 24, 0.889);
+  }
+}

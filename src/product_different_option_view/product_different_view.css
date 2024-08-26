@@ -1,0 +1,26 @@
+.display-product {
+  position: relative;
+  width: 100vw;
+  height: auto;
+  display: flex;
+  align-items: start;
+  justify-content: space-around;
+  background-color: rgba(128, 128, 128, 0.149);
+}
+
+.filter {
+  position: relative;
+  top: 10px;
+  width: 300px;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  flex-direction: column;
+}
+
+hr {
+  position: relative;
+  width: 100%;
+}

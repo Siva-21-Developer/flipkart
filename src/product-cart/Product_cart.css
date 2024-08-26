@@ -1,0 +1,12 @@
+.Product-con-catr {
+  position: relative;
+  width: 96vw;
+  height: 130px;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  padding: 5px;
+}
