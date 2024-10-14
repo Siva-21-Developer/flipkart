@@ -25,12 +25,13 @@ const NavBar = () => {
     navigate("/profile");
   };
 
-  const redirectordersPage = () => {
-    navigate("/orders");
-  };
+  // const redirectordersPage = () => {
+  //   navigate("/orders");
+  // };
 
   useEffect(() => {
     fetchUserData();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const fetchUserData = async () => {
@@ -79,39 +80,41 @@ const NavBar = () => {
             placeholder="Search for Products, Brands and More"
           />
         </div>
-        {iflogin ? (
-          <div className="dropdown">
-            <FontAwesomeIcon icon={faCircleUser} /> {user}
-            <div className="dropdown-content">
-              <div
-                className="dropdown-item"
-                onClick={() => redirectProfielPage()}
-              >
-                <p>Profile</p>
-              </div>
-              <div className="dropdown-item" onClick={() => yourOrder()}>
-                <p>Your Orders</p>
-              </div>
-              <div className="dropdown-item">
-                <button onClick={() => logOut()}>
-                  <FontAwesomeIcon icon={faSignOut} /> Logout
-                </button>
+        <div className="nav-items-ocn">
+          {iflogin ? (
+            <div className="dropdown">
+              <FontAwesomeIcon icon={faCircleUser} /> {user}
+              <div className="dropdown-content">
+                <div
+                  className="dropdown-item"
+                  onClick={() => redirectProfielPage()}
+                >
+                  <p>Profile</p>
+                </div>
+                <div className="dropdown-item" onClick={() => yourOrder()}>
+                  <p>Your Orders</p>
+                </div>
+                <div className="dropdown-item">
+                  <button onClick={() => logOut()}>
+                    <FontAwesomeIcon icon={faSignOut} /> Logout
+                  </button>
+                </div>
               </div>
             </div>
+          ) : (
+            <div className="nav-content">
+              <button onClick={() => redirectLoginPage()}>Login</button>
+            </div>
+          )}
+          <div className="nav-content" onClick={() => cartItemsShow()}>
+            <div className="count">{CartData}</div>
+            <FontAwesomeIcon icon={faCartShopping} />
+            Cart
           </div>
-        ) : (
-          <div className="nav-content">
-            <button onClick={() => redirectLoginPage()}>Login</button>
+          <div className="nav-content seller">
+            <FontAwesomeIcon icon={faStore} />
+            Become to seller
           </div>
-        )}
-        <div className="nav-content" onClick={() => cartItemsShow()}>
-          <div className="count">{CartData}</div>
-          <FontAwesomeIcon icon={faCartShopping} />
-          Cart
-        </div>
-        <div className="nav-content">
-          <FontAwesomeIcon icon={faStore} />
-          Become to seller
         </div>
       </nav>
     </>

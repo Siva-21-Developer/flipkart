@@ -42,3 +42,14 @@
 button:hover {
   background-color: rgb(195, 195, 195);
 }
+
+@media (max-width: 400px) {
+  .carousel-product {
+    height: 150px;
+  }
+  .btn-container button {
+    width: 20px;
+    height: 25%;
+    font-size: 10px;
+  }
+}

@@ -1187,6 +1187,7 @@ export const womenDress = [
     brand: "Generic",
     name: "Women's Khadi Cotton Saree With Blouse Piece (UFO301119SOLD_KHDI_1_Grey)",
     class_label: "saree",
+    price: 2999,
   },
   {
     imageURL: "https://m.media-amazon.com/images/I/81Q8Oktw4sL._AC_UL320_.jpg",
@@ -1194,6 +1195,7 @@ export const womenDress = [
     brand: "Yashvi Designer",
     name: "Women's Net Saree With Unstitched Blouse Piece",
     class_label: "saree",
+    price: 2999,
   },
   {
     imageURL: "https://m.media-amazon.com/images/I/613S1YGCmoL._AC_UL320_.jpg",
@@ -1201,6 +1203,7 @@ export const womenDress = [
     brand: "Aarrah",
     name: "Georgette Strip Print Saree[S_SHIKHA30021SR02_perent_Red & Yellow]",
     class_label: "saree",
+    price: 2999,
   },
   {
     imageURL: "https://m.media-amazon.com/images/I/819budhQl1L._AC_UL320_.jpg",
@@ -1208,6 +1211,7 @@ export const womenDress = [
     brand: "MIMOSA",
     name: "Women's Patola Style Art Silk Saree (Green)",
     class_label: "saree",
+    price: 2999,
   },
   {
     imageURL: "https://m.media-amazon.com/images/I/61cAZ94ZQVL._AC_UL320_.jpg",
@@ -1215,6 +1219,7 @@ export const womenDress = [
     brand: "Generic",
     name: "Women's Pure Hand Block Patola Printed Cotton Mulmul Saree with Pompom Lace and Plan Black Blouse (chhipaif050, Red)",
     class_label: "saree",
+    price: 2999,
   },
   {
     imageURL: "https://m.media-amazon.com/images/I/81hA0VcFSsL._AC_UL320_.jpg",
@@ -1222,6 +1227,7 @@ export const womenDress = [
     brand: "Laavaan",
     name: "Women's Georgette Polka Dot Saree With Blouse(priyanka-polka-dot-grey)",
     class_label: "saree",
+    price: 2999,
   },
   {
     imageURL: "https://m.media-amazon.com/images/I/71ckWvMAeGL._AC_UL320_.jpg",
@@ -1229,6 +1235,7 @@ export const womenDress = [
     brand: "Pavecha's",
     name: "Gadwaal pure cotton Pink Saree - MK4248",
     class_label: "saree",
+    price: 2999,
   },
   {
     imageURL: "https://m.media-amazon.com/images/I/91mM7tEQqML._AC_UL320_.jpg",
@@ -1236,6 +1243,7 @@ export const womenDress = [
     brand: "S Kiran's",
     name: "Women's Assamese Weaving Art Khadi Silk Mekhela Chador Saree - Mekhla Sador (Dn19, Chiku and Multicolor)",
     class_label: "saree",
+    price: 2999,
   },
   {
     imageURL: "https://m.media-amazon.com/images/I/81XpTIVad9L._AC_UL320_.jpg",
@@ -1243,6 +1251,7 @@ export const womenDress = [
     brand: "PISARA",
     name: "Women Chanderi Silk Saree With Blouse Piece (Beige)",
     class_label: "saree",
+    price: 2999,
   },
   {
     imageURL: "https://m.media-amazon.com/images/I/71PNUcbo-yL._AC_UL320_.jpg",
@@ -1250,6 +1259,7 @@ export const womenDress = [
     brand: "RIVER",
     name: "X SUNEET VARMA Women's Georgette and Pattern Mesh Ruffle Saree & Solid Blouse",
     class_label: "saree",
+    price: 2999,
   },
   {
     imageURL: "https://m.media-amazon.com/images/I/616PawVESEL._AC_UL320_.jpg",
@@ -1257,6 +1267,7 @@ export const womenDress = [
     brand: "Generic",
     name: "madurai sungudi cotton one side zari saree, d blue",
     class_label: "saree",
+    price: 2999,
   },
   {
     imageURL: "https://m.media-amazon.com/images/I/712xUKKLsrL._AC_UL320_.jpg",
@@ -1264,6 +1275,7 @@ export const womenDress = [
     brand: "Sugathari",
     name: "Maroon and Mustered color Pure georgette jacquard border bandhani saree (Palak Maroon Mustered)",
     class_label: "saree",
+    price: 2999,
   },
   {
     imageURL: "https://m.media-amazon.com/images/I/81dLEibMARL._AC_UL320_.jpg",
@@ -1271,6 +1283,7 @@ export const womenDress = [
     brand: "Satrani",
     name: "chiffon with Blouse Piece Saree (1367ST116_ White_ One Size)",
     class_label: "saree",
+    price: 2999,
   },
   {
     imageURL: "https://m.media-amazon.com/images/I/61d-eBcdneL._AC_UL320_.jpg",
@@ -1278,6 +1291,7 @@ export const womenDress = [
     brand: "Avik Creations",
     name: "Women's Kanchipuram Art Silk Saree With Running Blouse (AC-771_Yellow & Red)",
     class_label: "saree",
+    price: 2999,
   },
   {
     imageURL: "https://m.media-amazon.com/images/I/71PYFbczPkL._AC_UL320_.jpg",
@@ -1285,6 +1299,7 @@ export const womenDress = [
     brand: "Surat Sarees World",
     name: "One Minute Saree Ready to Wear With Ready Blouse",
     class_label: "saree",
+    price: 2999,
   },
   {
     imageURL: "https://m.media-amazon.com/images/I/51be79Ku23L._AC_UL320_.jpg",
@@ -1292,6 +1307,7 @@ export const womenDress = [
     brand: "Netra",
     name: "Narayanpet Women's Ganga Jamuna Border Handloom Cotton Saree with Blouse piece - Green Toned Blue",
     class_label: "saree",
+    price: 2999,
   },
   {
     imageURL: "https://m.media-amazon.com/images/I/61g8dQ-5j4L._AC_UL320_.jpg",
@@ -1299,6 +1315,7 @@ export const womenDress = [
     brand: "Floral Trendz",
     name: "Women's Plain Weave Chiffon Saree With Unstiched Blouse Piece",
     class_label: "saree",
+    price: 2999,
   },
   {
     imageURL:
@@ -1308,6 +1325,7 @@ export const womenDress = [
     name: "Embroidered Bollywood Net, Vichitra Saree",
     color: "Pink, Grey",
     class_label: "saree",
+    price: 2999,
   },
   {
     imageURL: "https://m.media-amazon.com/images/I/81k6Qed7XOL._AC_UL320_.jpg",
@@ -1315,6 +1333,7 @@ export const womenDress = [
     brand: "PERFECTBLUE",
     name: "Women's Linen Silk Digital Saree With Blouse Piece(DigiFoil)",
     class_label: "saree",
+    price: 2999,
   },
   {
     imageURL: "https://m.media-amazon.com/images/I/91sQm2xfqxL._AC_UL320_.jpg",
@@ -1322,6 +1341,7 @@ export const womenDress = [
     brand: "Kedshakti FASHION",
     name: "women's Kota Doria Saree with Blouse Piece",
     class_label: "saree",
+    price: 2999,
   },
   {
     imageURL: "https://m.media-amazon.com/images/I/91OwN+7LYyL._AC_UL320_.jpg",
@@ -1329,6 +1349,7 @@ export const womenDress = [
     brand: "Yashika",
     name: "Silk Saree with Blouse Piece",
     class_label: "saree",
+    price: 2999,
   },
   {
     imageURL:
@@ -1338,6 +1359,7 @@ export const womenDress = [
     name: "Woven, Embellished Banarasi Silk Blend Saree",
     color: "Mustard",
     class_label: "saree",
+    price: 2999,
   },
   {
     imageURL: "https://m.media-amazon.com/images/I/91UgHpmYcFL._AC_UL320_.jpg",
@@ -1345,6 +1367,7 @@ export const womenDress = [
     brand: "ANNI DESIGNER",
     name: "Women's Cotton Georgette Floral Printed Saree with Blouse Piece (JESSI 3, Jemini. Pink, Yellow, Blue)",
     class_label: "saree",
+    price: 2999,
   },
   {
     imageURL: "https://m.media-amazon.com/images/I/610ATpNnXvL._AC_UL320_.jpg",
@@ -1352,6 +1375,7 @@ export const womenDress = [
     brand: "Generic",
     name: "Women's Venkatgiri Silk Saree With Un-stitched Blouse (Pom_Grey)",
     class_label: "saree",
+    price: 2999,
   },
   {
     imageURL: "https://m.media-amazon.com/images/I/81mBodx4HOL._AC_UL320_.jpg",
@@ -1359,6 +1383,7 @@ export const womenDress = [
     brand: "S Kiran's",
     name: "Women's Plain Weave Art Silk Mekhela, Chador With Blouse Piece (PolyGold5089Yellow_Yellow)",
     class_label: "saree",
+    price: 2999,
   },
   {
     imageURL: "https://m.media-amazon.com/images/I/81neYpvLVNL._AC_UL320_.jpg",
@@ -1366,6 +1391,7 @@ export const womenDress = [
     brand: "NAMASYA FASHION",
     name: "Women's Pochampally Patola Cotton Blend Saree With Unstitched Blouse Piece",
     class_label: "saree",
+    price: 2999,
   },
   {
     imageURL: "https://m.media-amazon.com/images/I/41-sbWcy9DL._AC_UL320_.jpg",
@@ -1373,6 +1399,7 @@ export const womenDress = [
     brand: "SGF11",
     name: "Women Kanjivaram Soft Silk Saree With Blouse Piece (Sky Orange)",
     class_label: "saree",
+    price: 2999,
   },
   {
     imageURL: "https://m.media-amazon.com/images/I/81569pprUWL._AC_UL320_.jpg",
@@ -1380,6 +1407,7 @@ export const womenDress = [
     brand: "PERFECTBLUE",
     name: "Women's Digital Linen Saree with Unstitched Blouse Piece (DigiNet)",
     class_label: "saree",
+    price: 2999,
   },
   {
     imageURL: "https://m.media-amazon.com/images/I/91MaUZmNGDL._AC_UL320_.jpg",
@@ -1387,6 +1415,7 @@ export const womenDress = [
     brand: "Generic",
     name: "Ilkal Resham Cotton Traditional Satin Border Tope Teni Pallu Saree",
     class_label: "saree",
+    price: 2999,
   },
   {
     imageURL: "https://m.media-amazon.com/images/I/81uas9+eRjL._AC_UL320_.jpg",
@@ -1394,6 +1423,7 @@ export const womenDress = [
     brand: "Amyaa Fashion",
     name: "Women Chiffon Saree With Blouse Piece (AFS_Red & Black Border_Bandhej_S_Off-White)",
     class_label: "saree",
+    price: 2999,
   },
   {
     imageURL: "https://m.media-amazon.com/images/I/71b2B4XexoL._AC_UL320_.jpg",
@@ -1401,6 +1431,7 @@ export const womenDress = [
     brand: "The Crafted",
     name: "Women's Pure Cotton Readymade Inskirt Saree Petticoats Combo with Handmade Nada (Light Sky Blue)",
     class_label: "saree",
+    price: 2999,
   },
   {
     imageURL: "https://m.media-amazon.com/images/I/61iHanopjVL._AC_UL320_.jpg",
@@ -1408,6 +1439,7 @@ export const womenDress = [
     brand: "Generic Product",
     name: "Women's Mysore Silk Lycra Blend Saree With Unstiched Blouse Piece",
     class_label: "saree",
+    price: 2999,
   },
   {
     imageURL: "https://m.media-amazon.com/images/I/81M5n-uXt5L._AC_UL320_.jpg",
@@ -1415,6 +1447,7 @@ export const womenDress = [
     brand: "RajSundari",
     name: "Creation Beautiful Brasso Saree for Women",
     class_label: "saree",
+    price: 2999,
   },
   {
     imageURL: "https://m.media-amazon.com/images/I/91HzpPsufOL._AC_UL320_.jpg",
@@ -1422,6 +1455,7 @@ export const womenDress = [
     brand: "Art Decor Sarees",
     name: "Art D\u00e9cor Women's Cream & Orange Color Khadi Silk Printed Saree with Blouse",
     class_label: "saree",
+    price: 2999,
   },
   {
     imageURL: "https://m.media-amazon.com/images/I/81NBK4sugiL._AC_UL320_.jpg",
@@ -1429,6 +1463,7 @@ export const womenDress = [
     brand: "Mannt Tread",
     name: "Women's Plain Weave Satin Saree With Unstitched Blouse Piece",
     class_label: "saree",
+    price: 2999,
   },
   {
     imageURL:
@@ -1438,6 +1473,7 @@ export const womenDress = [
     name: "Embroidered Bollywood Poly Silk Saree",
     color: "Orange, Blue",
     class_label: "saree",
+    price: 2999,
   },
   {
     imageURL: "https://m.media-amazon.com/images/I/61BozAbVDrL._AC_UL320_.jpg",
@@ -1445,6 +1481,7 @@ export const womenDress = [
     brand: "R SELVAMANI TEX",
     name: "selvamani tex cotton kerala kasavu zari saree with blouse",
     class_label: "saree",
+    price: 2999,
   },
   {
     imageURL: "https://m.media-amazon.com/images/I/71FX13rXzhL._AC_UL320_.jpg",
@@ -1452,6 +1489,7 @@ export const womenDress = [
     brand: "Jolly Enterprise",
     name: "Women\u2019s Begampuri Khadi Mahapar Saree Exclusive Handloom - Red Black",
     class_label: "saree",
+    price: 2999,
   },
   {
     imageURL: "https://m.media-amazon.com/images/I/91ZTuqC4mPL._AC_UL320_.jpg",
@@ -1459,6 +1497,7 @@ export const womenDress = [
     brand: "GoSriKi",
     name: "silk with blouse piece Saree (BUTTERFLY-BLUE FS)",
     class_label: "saree",
+    price: 2999,
   },
   {
     imageURL: "https://m.media-amazon.com/images/I/91bO4QCO2PL._AC_UL320_.jpg",
@@ -1466,6 +1505,7 @@ export const womenDress = [
     brand: "Kalaa Varsha",
     name: "Women's Faux Georgette Printed Saree with Blouse Piece (7330_Green Blue)",
     class_label: "saree",
+    price: 2999,
   },
   {
     imageURL: "https://m.media-amazon.com/images/I/71Hcgf+YSUL._AC_UL320_.jpg",
@@ -1473,6 +1513,7 @@ export const womenDress = [
     brand: "Satrani",
     name: "Women'S Poly Silk Self Design, Jari Border Saree With Blouse Piece",
     class_label: "saree",
+    price: 2999,
   },
   {
     imageURL: "https://m.media-amazon.com/images/I/91nsJAxX8FL._AC_UL320_.jpg",
@@ -1480,6 +1521,7 @@ export const womenDress = [
     brand: "RANI SAAHIBA",
     name: "Women's Pure Cotton Printed Saree with Blouse Piece (SKR5482_Dark Blue)",
     class_label: "saree",
+    price: 2999,
   },
   {
     imageURL: "https://m.media-amazon.com/images/I/713P9P4R1+L._AC_UL320_.jpg",
@@ -1487,6 +1529,7 @@ export const womenDress = [
     brand: "SIRIL",
     name: "Women's Chanderi Silk & Art Silk Sarees Combo Pack of 2",
     class_label: "saree",
+    price: 2999,
   },
   {
     imageURL: "https://m.media-amazon.com/images/I/81jjYc2KECL._AC_UL320_.jpg",
@@ -1494,6 +1537,7 @@ export const womenDress = [
     brand: "NIKHILAM",
     name: "Women's Ikat Hand Block Print Jaipuri Cotton Mulmul Saree with Blouse Piece, Blue",
     class_label: "saree",
+    price: 2999,
   },
   {
     imageURL: "https://m.media-amazon.com/images/I/91RpvOVHSkL._AC_UL320_.jpg",
@@ -1501,6 +1545,7 @@ export const womenDress = [
     brand: "GoSriKi",
     name: "Women's Art Silk With Blouse Piece Saree",
     class_label: "saree",
+    price: 2999,
   },
   {
     imageURL: "https://m.media-amazon.com/images/I/71+Hha6SsdL._AC_UL320_.jpg",
@@ -1508,6 +1553,7 @@ export const womenDress = [
     brand: "Generic",
     name: "Kabir Fabrics Women's shubh Kanchipuram Silk kannchi Pattu Saree with Blouse (wine colour)",
     class_label: "saree",
+    price: 2999,
   },
   {
     imageURL: "https://m.media-amazon.com/images/I/61qMBS0Nx2L._AC_UL320_.jpg",
@@ -1515,6 +1561,7 @@ export const womenDress = [
     brand: "DH Handloom",
     name: "DH HandloomBhagalpuri Handloom Women's Khadi Cotton Saree (Off-White)",
     class_label: "saree",
+    price: 2999,
   },
   {
     imageURL: "https://m.media-amazon.com/images/I/71Ive6ilb0L._AC_UL320_.jpg",
@@ -1522,6 +1569,7 @@ export const womenDress = [
     brand: "Pavecha's",
     name: "Women's Cotton Blend Abstract Print Mangalagiri Saree with Blouse Piece (Green, Style_MK4747)",
     class_label: "saree",
+    price: 2999,
   },
   {
     imageURL:
@@ -1531,6 +1579,7 @@ export const womenDress = [
     name: "Self Design Banarasi Silk Blend, Cotton Blend Saree",
     color: "Orange",
     class_label: "saree",
+    price: 2999,
   },
   {
     imageURL: "https://m.media-amazon.com/images/I/61gY1V4ehDL._AC_UL320_.jpg",
@@ -1538,6 +1587,7 @@ export const womenDress = [
     brand: "Generic",
     name: "kerala saree set mundu 2x3 black silver 2mtr, 2.5 mtr, 1 mtr fancy printed blouse",
     class_label: "saree",
+    price: 2999,
   },
   {
     imageURL: "https://m.media-amazon.com/images/I/81uG3VC2n1L._AC_UL320_.jpg",
@@ -1545,6 +1595,7 @@ export const womenDress = [
     brand: "Dinal Enterprise",
     name: "Women's Rainbow Chiffon Plain With Saree With Designer Blouse Piece",
     class_label: "saree",
+    price: 2999,
   },
 
   {
@@ -1729,7 +1780,8 @@ export const SmartWatch = [
     NFC: "Yes",
     GPS: "Yes",
     price: "279",
-    imageURL: "https://example.com/apple_watch_se.jpg",
+    imageURL:
+      "https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/h/c/3/-original-imagte4syszvbmt2.jpeg?q=70",
   },
   {
     brand: "Samsung",
@@ -1745,7 +1797,8 @@ export const SmartWatch = [
     NFC: "Yes",
     GPS: "Yes",
     price: "199",
-    imageURL: "https://example.com/samsung_galaxy_watch_active_2.jpg",
+    imageURL:
+      "https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/h/c/3/-original-imagte4syszvbmt2.jpeg?q=70",
   },
   {
     brand: "Garmin",
@@ -1761,7 +1814,8 @@ export const SmartWatch = [
     NFC: "Yes",
     GPS: "Yes",
     price: "599",
-    imageURL: "https://example.com/garmin_forerunner_945.jpg",
+    imageURL:
+      "https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/z/7/u/-original-imagyzwvdjn3gedy.jpeg?q=70",
   },
   {
     brand: "Fitbit",
@@ -1777,7 +1831,8 @@ export const SmartWatch = [
     NFC: "Yes",
     GPS: "Yes",
     price: "329",
-    imageURL: "https://example.com/fitbit_sense.jpg",
+    imageURL:
+      "https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/j/q/a/-original-imahf5ngp3hvmtsv.jpeg?q=70",
   },
   {
     brand: "Fossil",
@@ -1793,7 +1848,8 @@ export const SmartWatch = [
     NFC: "No",
     GPS: "No",
     price: "199",
-    imageURL: "https://example.com/fossil_hybrid_hr.jpg",
+    imageURL:
+      "https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/c/e/d/-original-imagyu7946gxymfe.jpeg?q=70",
   },
   {
     brand: "Huawei",
@@ -1809,7 +1865,8 @@ export const SmartWatch = [
     NFC: "Yes",
     GPS: "No",
     price: "299",
-    imageURL: "https://example.com/huawei_watch_gt_2_pro.jpg",
+    imageURL:
+      "https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/h/a/q/-original-imagq425gg8r5was.jpeg?q=70",
   },
   {
     brand: "Apple",
@@ -1825,7 +1882,8 @@ export const SmartWatch = [
     NFC: "Yes",
     GPS: "Yes",
     price: "399",
-    imageURL: "https://example.com/apple_watch_series_6.jpg",
+    imageURL:
+      "https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/h/a/q/-original-imagq425gg8r5was.jpeg?q=70",
   },
   {
     brand: "Samsung",
@@ -1841,7 +1899,8 @@ export const SmartWatch = [
     NFC: "Yes",
     GPS: "Yes",
     price: "399",
-    imageURL: "https://example.com/samsung_galaxy_watch_3.jpg",
+    imageURL:
+      "https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/m/r/8/-original-imahy7ynhwgdht4g.jpeg?q=70",
   },
   {
     brand: "Garmin",
@@ -1857,7 +1916,8 @@ export const SmartWatch = [
     NFC: "Yes",
     GPS: "Yes",
     price: "799",
-    imageURL: "https://example.com/garmin_enduro.jpg",
+    imageURL:
+      "https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/m/r/8/-original-imahy7ynhwgdht4g.jpeg?q=70",
   },
   {
     brand: "Fitbit",
@@ -1873,7 +1933,8 @@ export const SmartWatch = [
     NFC: "Yes",
     GPS: "Yes",
     price: "199",
-    imageURL: "https://example.com/fitbit_versa_2.jpg",
+    imageURL:
+      "https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/m/r/8/-original-imahy7ynhwgdht4g.jpeg?q=70",
   },
   {
     brand: "Fossil",
@@ -1889,7 +1950,8 @@ export const SmartWatch = [
     NFC: "Yes",
     GPS: "Yes",
     price: "219",
-    imageURL: "https://example.com/fossil_sport.jpg",
+    imageURL:
+      "https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/m/r/8/-original-imahy7ynhwgdht4g.jpeg?q=70",
   },
   {
     brand: "Garmin",
@@ -1905,7 +1967,8 @@ export const SmartWatch = [
     NFC: "Yes",
     GPS: "Yes",
     price: "599",
-    imageURL: "https://example.com/garmin_forerunner_945_2.jpg",
+    imageURL:
+      "https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/m/r/8/-original-imahy7ynhwgdht4g.jpeg?q=70",
   },
   {
     brand: "Fitbit",
@@ -1921,7 +1984,8 @@ export const SmartWatch = [
     NFC: "Yes",
     GPS: "Yes",
     price: "299",
-    imageURL: "https://example.com/fitbit_sense_2.jpg",
+    imageURL:
+      "https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/m/r/8/-original-imahy7ynhwgdht4g.jpeg?q=70",
   },
   {
     brand: "Fossil",
@@ -1937,7 +2001,8 @@ export const SmartWatch = [
     NFC: "Yes",
     GPS: "Yes",
     price: "195",
-    imageURL: "https://example.com/fossil_collider_hr.jpg",
+    imageURL:
+      "https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/m/r/8/-original-imahy7ynhwgdht4g.jpeg?q=70",
   },
   {
     brand: "Huawei",
@@ -1953,7 +2018,8 @@ export const SmartWatch = [
     NFC: "Yes",
     GPS: "Yes",
     price: "299",
-    imageURL: "https://example.com/huawei_watch_gt_2_pro_2.jpg",
+    imageURL:
+      "https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/m/r/8/-original-imahy7ynhwgdht4g.jpeg?q=70",
   },
   {
     brand: "TicWatch",
@@ -1969,7 +2035,8 @@ export const SmartWatch = [
     NFC: "Yes",
     GPS: "Yes",
     price: "299",
-    imageURL: "https://example.com/ticwatch_pro_3.jpg",
+    imageURL:
+      "https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/c/f/b/-original-imah2gtmcgubsk6w.jpeg?q=70",
   },
   {
     brand: "Polar",
@@ -1985,7 +2052,8 @@ export const SmartWatch = [
     NFC: "Yes",
     GPS: "No",
     price: "499",
-    imageURL: "https://example.com/polar_vantage_v2.jpg",
+    imageURL:
+      "https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/c/f/b/-original-imah2gtmcgubsk6w.jpeg?q=70",
   },
   {
     brand: "Amazfit",
@@ -2001,7 +2069,8 @@ export const SmartWatch = [
     NFC: "Yes",
     GPS: "Yes",
     price: "179",
-    imageURL: "https://example.com/amazfit_gtr_2.jpg",
+    imageURL:
+      "https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/4/e/i/-original-imagxp8uqubwchen.jpeg?q=70",
   },
   {
     brand: "Withings",
@@ -2017,7 +2086,8 @@ export const SmartWatch = [
     NFC: "No",
     GPS: "No",
     price: "199",
-    imageURL: "https://example.com/withings_steel_hr_sport.jpg",
+    imageURL:
+      "https://rukminim2.flixcart.com/image/612/612/xif0q/smartwatch/5/l/e/-original-imaguezaztvdzg4q.jpeg?q=70",
   },
 ];
 

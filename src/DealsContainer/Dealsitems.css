@@ -12,3 +12,9 @@
   height: 100%;
   object-fit: fill;
 }
+
+@media (max-width: 400px) {
+  .Deals-image-container {
+    width: 300px;
+  }
+}

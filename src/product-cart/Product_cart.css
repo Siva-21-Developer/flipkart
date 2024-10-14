@@ -5,8 +5,8 @@
   background-color: white;
   border-radius: 5px;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
+  flex-shrink: 0;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
   padding: 5px;
 }

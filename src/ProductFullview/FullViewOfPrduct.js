@@ -6,6 +6,7 @@ import { faCartShopping, faTag } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
+import Notifi from "../notification/Notficiation";
 
 const FullViewOfPrduct = () => {
   const navigate = useNavigate();
@@ -15,8 +16,23 @@ const FullViewOfPrduct = () => {
   const { model, brand, price, originalprice, offer, imgurl } = useParams();
 
   const [imgruls, setimgruls] = useState(imgurl);
-
+  let priceData = new Intl.NumberFormat().format(price);
   const imageurl = [imgurl, imgurl, imgurl, imgurl];
+
+  const [message, setMessage] = useState("");
+  const [active, setActive] = useState(false);
+  const [icons, seticons] = useState(false);
+
+  const Notificaion = (active, icons, message) => {
+    setActive(active);
+    seticons(icons);
+    setMessage(message);
+    setTimeout(() => {
+      setActive(false);
+      seticons(false);
+      setMessage("");
+    }, 2000);
+  };
 
   const addCartItem = () => {
     setaddcarts(!addcarts);
@@ -31,10 +47,12 @@ const FullViewOfPrduct = () => {
         withCredentials: true,
       })
       .then((response) => {
-        console.log(response.data);
+        if (response.data.message === "success") {
+          Notificaion(true, true, "Product Added");
+        }
       })
       .catch((error) => {
-        console.error("Error adding item to cart:", error);
+        Notificaion(true, false, "Failed");
       });
   };
 
@@ -52,6 +70,7 @@ const FullViewOfPrduct = () => {
 
   return (
     <>
+      <Notifi actives={active} icons={icons} message={message} />
       <NavBar />
       <div className="Procuct_Conatains_full">
         <div className="Product_fullView">
@@ -99,7 +118,7 @@ const FullViewOfPrduct = () => {
               <p>Rating: 4.5/5</p>
             </div>
             <div className="Product_price">
-              <h1>₹{price}</h1>
+              <h1>₹{priceData}</h1>
             </div>
             <div className="Product_offers">
               <p> original price ₹{originalprice}</p> ~ <p>{offer} %</p>
@@ -109,21 +128,21 @@ const FullViewOfPrduct = () => {
                 <h4>Available offers</h4>
                 <div className="offers_ava">
                   <p>
-                    <FontAwesomeIcon icon={faTag} style={{ color: "green" }} />{" "}
+                    <FontAwesomeIcon icon={faTag} style={{ color: "green" }} />
                     Bank Offer₹4000 Off On ICICI Bank Credit Non EMI, Credit and
                     Debit Card EMI Transactions<a href="http://">T&C</a>
                   </p>
                 </div>
                 <div className="offers_ava">
                   <p>
-                    <FontAwesomeIcon icon={faTag} style={{ color: "green" }} />{" "}
+                    <FontAwesomeIcon icon={faTag} style={{ color: "green" }} />
                     Bank Offer5% Cashback on Flipkart Axis Bank Card
                     <a href="http://">T&C</a>
                   </p>
                 </div>
                 <div className="offers_ava">
                   <p>
-                    <FontAwesomeIcon icon={faTag} style={{ color: "green" }} />{" "}
+                    <FontAwesomeIcon icon={faTag} style={{ color: "green" }} />
                     Bank Offer₹4000 Off On ICICI Bank Credit and Debit Card
                     Transactions<a href="http://">T&C</a>
                   </p>

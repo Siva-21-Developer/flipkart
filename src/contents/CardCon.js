@@ -1,10 +1,7 @@
 import "./CardCon.css";
 import ProductCard from "./Product-Card";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faArrowAltCircleRight,
-  faChevronRight,
-} from "@fortawesome/free-solid-svg-icons";
+import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 
 const CardCon = (props) => {
   return (

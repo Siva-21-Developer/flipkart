@@ -5,6 +5,8 @@
   background-color: white;
   display: flex;
   align-items: center;
+  overflow: auto;
   justify-content: space-between;
   flex-direction: row;
+  gap: 10px;
 }

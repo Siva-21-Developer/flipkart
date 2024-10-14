@@ -5,6 +5,8 @@
   display: flex;
   align-items: start;
   justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 10px;
 }
 
 .Cart_items {
@@ -16,6 +18,7 @@
   border-radius: 3px;
   background-color: white;
   display: flex;
+  flex: 60%;
   flex-direction: column;
   gap: 10px;
   padding: 10px 0px;
@@ -77,6 +80,7 @@
 
 .Cart_items_total {
   position: relative;
+  flex: 30%;
   top: 20px;
   width: 500px;
   height: 40vh;
@@ -87,6 +91,7 @@
   justify-content: space-around;
   flex-direction: column;
   border-radius: 3px;
+  padding: 10px;
 }
 
 .price-details-head {
@@ -120,4 +125,45 @@
   width: 90%;
   display: flex;
   justify-content: space-between;
+}
+
+@media (max-width: 850px) {
+  .Cart_items {
+    flex: 100%;
+  }
+}
+
+@media (max-width: 400px) {
+  .cart_img {
+    width: 100px;
+  }
+  .cart_items_container {
+    align-items: center;
+    width: 100vw;
+  }
+  .cart_details {
+    width: 300px;
+    height: 40%;
+  }
+  .cart_details {
+    width: 100vw;
+    h2 {
+      font-size: 15px;
+      width: 200px;
+    }
+    h4 {
+      font-size: 10px;
+    }
+    .cart-btn-container {
+      button {
+        font-size: 10px;
+      }
+    }
+  }
+  .Cart_items_total {
+    font-size: 15px;
+  }
+  .total-details-price h2 {
+    font-size: 16px;
+  }
 }

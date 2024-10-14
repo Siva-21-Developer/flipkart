@@ -2,11 +2,27 @@ import NavBar from "../nav/Nav";
 import "./Cart.css";
 import { useEffect, useState, useMemo } from "react";
 import axios from "axios";
+import Notifi from "../notification/Notficiation";
 
 const Cart = () => {
   const [CartData, setCartData] = useState([]);
   const [Coupons, setCoupons] = useState(0);
   const [Delivery, setDelivery] = useState(0);
+
+  const [message, setMessage] = useState("");
+  const [active, setActive] = useState(false);
+  const [icons, seticons] = useState(false);
+
+  const Notificaion = (active, icons, message) => {
+    setActive(active);
+    seticons(icons);
+    setMessage(message);
+    setTimeout(() => {
+      setActive(false);
+      seticons(false);
+      setMessage("");
+    }, 2000);
+  };
 
   useEffect(() => {
     fetchUserData();
@@ -30,8 +46,11 @@ const Cart = () => {
           withCredentials: true,
         })
         .then((result) => {
-          if (result) {
+          if (result.data.message === "success") {
+            Notificaion(true, true, "Item deleted");
             fetchUserData();
+          } else {
+            Notificaion(true, false, "Failed");
           }
         });
     } catch (error) {
@@ -60,6 +79,7 @@ const Cart = () => {
 
   return (
     <>
+      <Notifi actives={active} icons={icons} message={message} />
       <NavBar />
       <div className="Cart_items_con">
         <div className="Cart_items">

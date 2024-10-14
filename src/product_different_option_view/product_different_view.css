@@ -5,6 +5,7 @@
   display: flex;
   align-items: start;
   justify-content: space-around;
+  gap: 10px;
   background-color: rgba(128, 128, 128, 0.149);
 }
 
@@ -23,4 +24,10 @@
 hr {
   position: relative;
   width: 100%;
+}
+
+@media (max-width: 1200px) {
+  .filter {
+    display: none;
+  }
 }

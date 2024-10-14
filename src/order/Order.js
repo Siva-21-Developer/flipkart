@@ -4,6 +4,7 @@ import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
+import Notifi from "../notification/Notficiation";
 
 const Order = () => {
   const navigate = useNavigate();
@@ -19,9 +20,26 @@ const Order = () => {
   const [loading, setloading] = useState(false);
   const [buttonname, setbuttonName] = useState("Order");
 
+  // notificaion values
+
+  const [message, setMessage] = useState("");
+  const [active, setActive] = useState(false);
+  const [icons, seticons] = useState(false);
+
   useEffect(() => {
     userData();
   }, []);
+
+  const Notificaion = (active, icons, message) => {
+    setActive(active);
+    seticons(icons);
+    setMessage(message);
+    setTimeout(() => {
+      setActive(false);
+      seticons(false);
+      setMessage("");
+    }, 2000);
+  };
 
   const userData = async () => {
     try {
@@ -50,7 +68,6 @@ const Order = () => {
   const copen = Math.round(totalPrice / 80 + 20);
   const Delivery = 40;
   const total = totalPrice - Discount - copen - Delivery; // Total calculation
-  // Current date
   let date = new Date();
   const date_day = date.getDate() + 4;
   const month = date.getMonth();
@@ -84,7 +101,7 @@ const Order = () => {
       .then((result) => {
         if (result.data.message === "success") {
           setloading(false);
-          setbuttonName("ORDER PLACED SUCCUSSFULLY");
+          Notificaion(true, true, "Order Placed");
           setTimeout(() => {
             navigate("/");
           }, 3000);
@@ -97,6 +114,7 @@ const Order = () => {
 
   return (
     <>
+      <Notifi actives={active} icons={icons} message={message} />
       <NavBar />
       <div className="order_items_con">
         <div className="order_items">

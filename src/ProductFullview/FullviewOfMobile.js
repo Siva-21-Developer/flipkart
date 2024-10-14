@@ -6,10 +6,26 @@ import { faCartShopping, faTag } from "@fortawesome/free-solid-svg-icons";
 import axios from "axios";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import Notifi from "../notification/Notficiation";
 
 const FullViewOfMobile = () => {
   const navigate = useNavigate();
   const [addcarts, setaddcarts] = useState(false);
+
+  const [message, setMessage] = useState("");
+  const [active, setActive] = useState(false);
+  const [icons, seticons] = useState(false);
+
+  const Notificaion = (active, icons, message) => {
+    setActive(active);
+    seticons(icons);
+    setMessage(message);
+    setTimeout(() => {
+      setActive(false);
+      seticons(false);
+      setMessage("");
+    }, 2000);
+  };
 
   window.scrollTo(0, 0);
   const {
@@ -25,6 +41,7 @@ const FullViewOfMobile = () => {
     imgurl,
   } = useParams();
 
+  let priceData = new Intl.NumberFormat().format(price);
   const [imgUrl, setImgUrl] = useState(imgurl); // Corrected state name
 
   const imageUrls = [imgurl, imgurl, imgurl, imgurl];
@@ -49,11 +66,12 @@ const FullViewOfMobile = () => {
         withCredentials: true,
       })
       .then((response) => {
-        if (response) {
+        if (response.data.message === "success") {
+          Notificaion(true, true, "Product Added");
         }
       })
       .catch((error) => {
-        console.error("Error adding item to cart:", error);
+        Notificaion(true, false, "Failed");
       });
   };
 
@@ -71,6 +89,7 @@ const FullViewOfMobile = () => {
 
   return (
     <>
+      <Notifi actives={active} icons={icons} message={message} />
       <NavBar />
       <div className="Procuct_Conatains_full">
         <div className="Product_fullView">

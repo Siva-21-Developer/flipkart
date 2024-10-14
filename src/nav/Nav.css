@@ -142,7 +142,7 @@ nav .input-container {
   position: absolute;
   z-index: 10;
   border-radius: 50%;
-  top: 15px;
+  top: -5px;
   left: 30px;
   font-size: 9px;
   display: flex;
@@ -150,3 +150,36 @@ nav .input-container {
   justify-content: center;
   color: white;
 }
+.nav-items-ocn {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+@media (max-width: 800px) {
+  nav {
+    justify-content: space-between;
+  }
+  nav .seller {
+    display: none;
+  }
+  nav .input-container {
+    display: none;
+  }
+  .nav-content button {
+    height: 30px;
+  }
+}
+
+/* @media (max-width: 850px) {
+  nav {
+    display: none;
+  }
+}
+
+ */
+/* @media (max-width: 850px) {
+  nav {
+    display: none;
+  }
+} */

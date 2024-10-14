@@ -1,0 +1,26 @@
+.notifi-con {
+  position: absolute;
+  width: 200px;
+  height: 70px;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  left: 50%;
+  transform: translate(-50%, -600%);
+  transition: 1s ease;
+  z-index: 1000;
+}
+
+.notifi-con .FontAwesomeIcon {
+  color: greenyellow;
+}
+
+.notifi-con h5 {
+  color: gray;
+}
+
+.notifi-con.active {
+  transform: translate(-50%, 50%);
+}

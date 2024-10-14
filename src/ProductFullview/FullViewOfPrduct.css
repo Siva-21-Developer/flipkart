@@ -7,7 +7,7 @@
 .Product_fullView {
   top: 10px;
   position: relative;
-  width: 90vw;
+  width: 100vw;
   min-height: 100vh;
   max-height: auto;
   display: flex;
@@ -16,12 +16,14 @@
   flex-wrap: wrap;
   background-color: white;
   overflow: hidden;
+  flex: 50%;
 }
 
 .Product_fullView .Product_fullView_img {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   position: relative;
   width: 700px;
+  flex: 50%;
   height: 95vh;
   padding: 5px;
   flex-shrink: 0;
@@ -148,4 +150,69 @@
 
 a {
   text-decoration: none;
+}
+
+@media (max-width: 970px) {
+  .Product_full_details {
+    width: 100vw;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 560px) {
+  .Product_fullView .Product_fullView_img {
+    height: auto;
+    .container {
+      display: grid;
+      justify-content: center;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 0.7fr 0.2fr 0.1fr;
+      gap: 0px 0px;
+      grid-auto-flow: row;
+      grid-template-areas:
+        "product-full-view product-full-view product-full-view"
+        "product-images product-images product-images"
+        "product-button-container product-button-container product-button-container";
+    }
+
+    .product-full-view {
+      grid-area: product-full-view;
+      padding: 20px;
+    }
+
+    .product-images {
+      grid-area: product-images;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+    }
+
+    .product-images .image-small-view {
+      width: 60px;
+      height: 60px;
+      background-color: white;
+      border: 0.4px solid rgba(128, 128, 128, 0.633);
+      overflow: hidden;
+      cursor: pointer;
+    }
+    .product-button-container {
+      grid-area: product-button-container;
+    }
+  }
+  .Product_full_details .Product_brand,
+  .Product_model,
+  .Product_rating,
+  .Product_price,
+  .Product_offers,
+  .Product_ava_off {
+    font-size: 10px;
+  }
+  .Product_full_details {
+    position: relative;
+    width: 500px;
+    height: auto;
+    overflow: hidden;
+  }
 }

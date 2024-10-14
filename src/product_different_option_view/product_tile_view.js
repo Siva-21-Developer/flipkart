@@ -1,13 +1,17 @@
 import "./product_tile.css";
 import { useNavigate } from "react-router-dom";
+import { faArrowDown } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const Product_tile_view = (props) => {
   window.scrollTo(0, 0);
   const navigate = useNavigate();
   let price = props.storage.price;
   let result = price.replaceAll(",", "");
-  let discount = parseInt(result) - 2000;
-
+  let discountPer = Math.round(Math.random() * 10) + 10;
+  let prices = (discountPer / 100) * parseInt(result);
+  let discount = parseInt(result) - Math.round(prices);
+  let total_discountprinc = new Intl.NumberFormat().format(discount);
   const redirectFullViewPage = (
     model,
     color,
@@ -62,6 +66,15 @@ const Product_tile_view = (props) => {
         <h3>
           {props.details.model}( {props.color.color},{props.storage.gb})
         </h3>
+        <div className="price-details">
+          <h2>
+            ₹{props.storage.price} - ₹ {total_discountprinc} |
+            <h6>
+              {" "}
+              <FontAwesomeIcon icon={faArrowDown} /> {discountPer} %
+            </h6>
+          </h2>
+        </div>
         <ul>
           <li>
             {props.storage.ram} RAM | {props.storage.gb}
@@ -79,7 +92,7 @@ const Product_tile_view = (props) => {
       <div className="product_tile_priceDetails">
         <h1>₹{props.storage.price}</h1>
         <ul>
-          <li style={{ color: "lightgreen" }}>10% Off</li>
+          <li style={{ color: "lightgreen" }}>{discountPer} % Off</li>
           <li>Free Delivery By Tomorrow</li>
           <li>save extra with combo offer</li>
           <li>Upto ₹{discount}</li>

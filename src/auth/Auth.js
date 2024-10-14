@@ -86,7 +86,7 @@ const Auth = () => {
                 <div className="input-con">
                   <input
                     type="text"
-                    placeholder="User Name"
+                    placeholder="Password"
                     value={passWord}
                     onChange={(e) => setPassword(e.target.value)}
                     required
@@ -127,7 +127,7 @@ const Auth = () => {
                     <div className="input-con-1">
                       <input
                         type="text"
-                        placeholder="User Name"
+                        placeholder="Password"
                         value={passWord}
                         onChange={(e) => setPassword(e.target.value)}
                         required
